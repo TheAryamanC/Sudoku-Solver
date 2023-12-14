@@ -31,9 +31,7 @@ def solve(puzzle, missing_cells=None, index=0):
         row, column = missing_cells[index]
     # Recursively solve puzzle
     for number in range(1,10):
-        if not valid_number(puzzle, number, row, column):
-            continue
-        else:
+        if valid_number(puzzle, number, row, column):
             copy_sudoku = np.copy(puzzle)
             copy_sudoku[row,column] = number
             if solve(copy_sudoku, missing_cells, index+1) == True:
