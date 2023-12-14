@@ -1,3 +1,3 @@
 # Sudoku Solver
 
-## This is an algorithm that solves a sudoku puzzle
+## This is a program that solves a sudoku puzzle
