@@ -13,7 +13,7 @@ def valid_number(sudoku, number, row_number, column_number):
     # Compare
     return False if np.any(sudoku[row_number, :] == number) or np.any(sudoku[:, column_number] == number) or np.any(box == number) else True
 
-# Global variable to store final result
+# Global variable to store final board
 result = None
 
 # Solve board
