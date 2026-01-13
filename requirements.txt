@@ -1,0 +1,12 @@
+# Core dependencies
+numpy>=1.20.0
+
+# For visualization (optional but recommended)
+matplotlib>=3.5.0
+
+# For image processing and ML (required for image input feature)
+opencv-python>=4.5.0
+tensorflow>=2.10.0
+
+# Alternative: use keras standalone if tensorflow is too heavy
+# keras>=3.0.0
